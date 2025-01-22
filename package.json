@@ -1,0 +1,20 @@
+{
+  "name": "nsfw-detector",
+  "version": "0.0.1",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node -r dotenv/config ./src/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "nsfwjs": "4.2.0",
+    "sharp": "^0.33.5"
+  },
+  "imports": {
+    "#src/*": "./src/*"
+  }
+}
